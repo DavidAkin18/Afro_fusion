@@ -1,23 +1,23 @@
 <template>
  <div class="md:w-11/12 mx-auto py-10">
-    <!-- Title Section -->
+    
     <div class="text-center mb-10">
       <h2 class="text-2xl font-bold mb-2">Why Choose Us?</h2>
       <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur. Habitant ut elementum</p>
     </div>
-    <!-- Choice Cards Section -->
+ 
     <div class="flex flex-col px-4 md:flex-row justify-center gap-6">
       <div 
         v-for="item in choice" 
         :key="item.header" 
         class="bg-[#FFF8F4] rounded-lg p-6 border  md:w-1/3 text-center">
         
-        <!-- Icon Section -->
+    
         <div class="flex justify-center mb-4">
           <img :src="item.img" :alt="item.header" class="h-16 w-16">
         </div>
         
-        <!-- Text Content -->
+ 
         <h3 class="text-xl font-semibold mb-2">{{ item.header }}</h3>
         <p class="text-gray-500">{{ item.body }}</p>
       </div>

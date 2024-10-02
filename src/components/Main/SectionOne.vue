@@ -23,8 +23,8 @@
                     Immerse yourself in a culinary journey like no other at Afro fusion delight, Our menu is a celebration of the diverse and vibrant tapestry of African flavors.
                 </p>
                 <div class="flex w-full gap-2 pt-2 text-center items-center justify-center">
-                    <button class="border rounded-md p-2 md:w-2/3 bg-[#FD9900] text-[#fff]">EXPLORE OUR MENU</button>
-                    <button class="border border-[#FD9900] md:w-1/2  rounded-md p-2 ">CONTACT US</button>
+                    <button class="border rounded-md p-2 md:w-2/3 bg-[#FD9900] hover:bg-[#fd9800ab] text-[#fff]">EXPLORE OUR MENU</button>
+                    <button class="border border-[#FD9900] hover:bg-[#FD9900]  md:w-1/2  rounded-md p-2 ">CONTACT US</button>
                 </div>
             </div>
         </div>
