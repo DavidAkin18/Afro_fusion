@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <section class="sec-one   ">
+    <section class="sec-one  mt-10 ">
         <div class="px-4 py-10 md:py-20 md:w-11/12 mx-auto w-full md:flex gap-4 flex-row-reverse items-center">
             <div class="md:w-1/2">
                 <div class="w-full">
